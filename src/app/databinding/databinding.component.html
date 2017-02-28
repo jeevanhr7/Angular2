@@ -1,3 +1,10 @@
+<h1>String</h1>
 <p>
 {{stringInterpolation}}|{{numberInter}}
 </p>
+<input type="text" [value]=stringInterpolation>
+<p [ngClass]="{red:true}">Hai How are you</p>
+<h3>Custom Property</h3>
+<fa-property-binding [result]="10"></fa-property-binding>
+<h3>Event BINDING</h3>
+<fa-event-binding (clickable)="onClicked($event)"></fa-event-binding>
