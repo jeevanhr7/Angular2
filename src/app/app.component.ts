@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: '<h1>hai jeevan it Works</h1><fa-other><div>heelo How are you doing</div></fa-other>',
+  template: '<h1>ROOT Component</h1><fa-databinding></fa-databinding>',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
